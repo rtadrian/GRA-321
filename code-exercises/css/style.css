@@ -1,3 +1,8 @@
+* {
+background-color:coral;
+font-family:Arial, sans-serif;
+}
+
 button {
   background-color:#f5bd60;
   border: none;
@@ -5,4 +10,10 @@ button {
   font-family:Arial, sans-serif;
   text-transform: uppercase;
   padding: 2em 4em 2em 4em;
+}
+
+.padding-hover:hover {
+  background-color:#f5bd60;
+  color:white;
+  text-decoration:underline;
 }
