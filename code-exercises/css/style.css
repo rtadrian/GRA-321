@@ -14,6 +14,6 @@ button {
 
 .padding-hover:hover {
   background-color:#f5bd60;
-  color:white;
+  color:black;
   text-decoration:underline;
 }
