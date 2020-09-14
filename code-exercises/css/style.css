@@ -1,19 +1,14 @@
-a {
-  background-color: white;
-  color:#000;
-  display:block;
+button {
+  background-color:#f5bd60;
+  border: none;
+  color:white;
   font-family:Arial, sans-serif;
-  padding:2em;
-  width:20%;
-  text-decoration:none;
+  text-transform: uppercase;
+  padding: 1em 2em 1em 2em;
 }
 
 .padding-hover:hover {
   background-color:#f5bd60;
   color:white;
   text-decoration:underline;
-}
-
-.visited-gray:visited {
-  color: LightGray;
 }
