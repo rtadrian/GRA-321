@@ -1,13 +1,13 @@
 body{
 background-color:#f5cac3;
-font-family:Arial, sans-serif;
+font-family:Century Gothic, Arial, sans-serif;
 }
 
 button {
   background-color:#81b29a;
   border: none;
   color:white;
-  font-family:Arial, sans-serif;
+  font-family:Century Gothic, Arial, sans-serif;
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;
 }
@@ -23,7 +23,7 @@ button {
 }
 
 .container {
-  background-image: url(https://rtadrian.github.io/gra-321/code-exercises/images/coffee.jpg);
+  background-image: url("https://rtadrian.github.io/gra-321/code-exercises/images/coffee.jpg");
   background-size: cover;
   height:700px;
   margin: 0 auto;
