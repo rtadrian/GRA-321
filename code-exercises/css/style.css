@@ -17,3 +17,20 @@ button {
   color:white;
   text-decoration:underline;
 }
+
+.container {
+  background-image: ur(https://unsplash.com/photos/pMW4jzELQCw);
+  background-size: cover;
+  height:700px;
+  margin: 0 auto;
+  width:50%;
+
+}
+
+h1 {
+  color: #fff;
+  font-size:52px;
+  position:relative;
+  text-align:center;
+
+}
