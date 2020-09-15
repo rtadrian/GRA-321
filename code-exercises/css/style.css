@@ -42,12 +42,12 @@ h2 {
 /*---Media Queries---*/
 @media screen and (max-width: 1000px) {
   body {
-    background-color: #f5cac3;
+    background-color: lightseagreen;
 }
 }
 
 @media screen and (max-width: 500px) {
   body {
-    background-color: lightseagreen;
+    background-color: #f5cac3;
 }
 }
