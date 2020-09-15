@@ -12,7 +12,7 @@ button {
   padding: 1em 2em 1em 2em;
 }
 
-.padding-hover:hover {
+padding-hover:hover {
   background-color:#81b29a;
   color:white;
   padding:1em 2em 1em 2em;
@@ -22,7 +22,7 @@ button {
   text-decoration:underline;
 }
 
-.container {
+container {
   background-image: url(https://rtadrian.github.io/gra-321/code-exercises/img/nathan-dumlao-pMW4jzELQCw-unsplash);
   background-size: cover;
   height:700px;
