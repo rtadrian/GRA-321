@@ -3,7 +3,7 @@ background-color:#f5cac3;
 font-family:Arial, sans-serif;
 }
 
-button {
+.button {
   background-color:#81b29a;
   border: none;
   color:white;
@@ -12,7 +12,7 @@ button {
   padding: 1em 2em 1em 2em;
 }
 
-padding-hover:hover {
+.padding-hover:hover {
   background-color:#81b29a;
   color:white;
   padding:1em 2em 1em 2em;
@@ -22,7 +22,7 @@ padding-hover:hover {
   text-decoration:underline;
 }
 
-container {
+.container {
   background-image: url(https://rtadrian.github.io/gra-321/code-exercises/img/nathan-dumlao-pMW4jzELQCw-unsplash);
   background-size: cover;
   height:700px;
@@ -39,18 +39,6 @@ h2 {
 
 }
 
-/*---Default Styling ---*/
-p {
-  font-family:Arial, sans-serif;
-  font-size:52px;
-  font-weight:500;
-  text-align:center;
-  width: 100%;
-  margin: 0 auto;
-  top: 65px;
-  position:relative;
-}
-
 /*---Media Queries---*/
 @media screen and (max-width: 1000px) {
   body {
@@ -60,6 +48,6 @@ p {
 
 @media screen and (max-width: 500px) {
   body {
-    background-color: MediumSeaGreen;
+    background-color: #81b29a;
 }
 }
