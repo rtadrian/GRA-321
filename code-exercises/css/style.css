@@ -23,7 +23,7 @@ button {
 }
 
 .container {
-  background-image: url(https://rtadrian.github.io/gra-321/code-exercises/img/photo-1498804103079-a6351b050096.jpg);
+  background-image: url(https://rtadrian.github.io/gra-321/code-exercises/img/photo-1498804103079-a6351b050096);
   background-size: cover;
   height:700px;
   margin: 0 auto;
@@ -32,7 +32,7 @@ button {
 }
 
 h2 {
-  color: #fff;
+  color: #000;
   font-size:52px;
   position:relative;
   text-align:center;
