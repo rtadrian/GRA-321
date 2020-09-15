@@ -3,7 +3,7 @@ background-color:#f5cac3;
 font-family:Arial, sans-serif;
 }
 
-.button {
+button {
   background-color:#81b29a;
   border: none;
   color:white;
@@ -42,12 +42,12 @@ h2 {
 /*---Media Queries---*/
 @media screen and (max-width: 1000px) {
   body {
-    background-color: #f5cac3;
+    background-color: lightsalmon;
 }
 }
 
 @media screen and (max-width: 500px) {
   body {
-    background-color: #81b29a;
+    background-color: lightseagreen;
 }
 }
