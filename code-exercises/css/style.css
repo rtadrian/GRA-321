@@ -23,7 +23,7 @@ button {
 }
 
 .container {
-  background-image: url(https://rtadrian.github.io/gra-321/code-exercises/img/nathan-dumlao-pMW4jzELQCw-unsplash.jpg);
+  background-image: url(gra-321/code-exercises/img/nathan-dumlao-pMW4jzELQCw-unsplash.jpg);
   background-size: cover;
   height:700px;
   margin: 0 auto;
@@ -42,7 +42,7 @@ h2 {
 /*---Media Queries---*/
 @media screen and (max-width: 1000px) {
   body {
-    background-color: lightsalmon;
+    background-color: #f5cac3;
 }
 }
 
