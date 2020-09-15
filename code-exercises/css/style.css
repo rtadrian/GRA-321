@@ -12,24 +12,16 @@ button {
   padding: 1em 2em 1em 2em;
 }
 
-a {
-  background-color: white;
-  color:#000;
-  display:block;
-  font-family:Arial, sans-serif;
-  padding:2em;
-  width:20%;
-  text-decoration:none;
-}
-
 .padding-hover:hover {
   background-color:#81b29a;
   color:white;
+  padding:2em;
+  width:20%;
   text-decoration:underline;
 }
 
 .container {
-  background-image: ur(https://unsplash.com/photos/pMW4jzELQCw);
+  background-image: url(https://unsplash.com/photos/pMW4jzELQCw);
   background-size: cover;
   height:700px;
   margin: 0 auto;
