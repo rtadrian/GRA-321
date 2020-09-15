@@ -17,6 +17,8 @@ button {
   color:white;
   padding:2em;
   width:20%;
+  text-align:center;
+  text-transform: uppercase;
   text-decoration:underline;
 }
 
