@@ -1,7 +1,236 @@
-* {
+body
+{
+  margin: 10px;
+  padding: 20px;
+
+  background: white;
+  color: #503939;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+h1{
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  font-size: 26px;
+  color: black;
+}
+
+h2 {
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  Font-size: 24px;
+  Text-transform: uppercase;
+  text-weight: bold;
+  Color: white;
+}
+
+h3 {
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  Font-size: 14px
+  Text-transform: uppercase;
+  Color: #503939
+}
+
+h4 {
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  Font-size: 13px
+  Text-transform: uppercase;
+  Color: #503939
+}
+
+p{
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  Font-size: 21px;
+  Color: black;
+}
+
+p2 {
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  Font-size: 16px
+  Color: #503939;
+  Line-height: 28px;
+}
+
+.menu-1{
+  background-color: #503939;
+  margin-top: 10px;
+  padding: 20px;
+  width: 400px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 
 }
 
-h1 {
+.menu-2{
+  background-color: #503939;
+  margin-top: 10px;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 
+}
+
+.menu-3{
+  background-color: #503939;
+  margin-top: 10px;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.logo{
+  width: 250px;
+  margin-right: 100px;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.image-1{
+  width: 400px;
+  padding-top: 11px;
+  align-items: center;
+}
+
+.locations{
+  padding: 10px;
+  max-width: 400px;
+}
+
+a {
+display:block;
+}
+
+iframe {
+width:50%; }
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #503939;
+
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background: #503939;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #503939;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
 }
