@@ -8,8 +8,8 @@ h2 {
   font-family: "Avenir Next", "Avenir", sans-serif;
   Font-size: 24px;
   Text-transform: uppercase;
-  text-weight: bold;
   Color: white;
+  text-align: center;
 }
 
 h3 {
@@ -46,6 +46,13 @@ p2 {
   Line-height: 28px;
 }
 
+p3 {
+    font-color: white;
+    font-family:"Avenir Next", "Avenir", sans-serif
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
 li, ul, p {
   margin: 0;
   padding: 0;
@@ -53,14 +60,29 @@ li, ul, p {
 
 ul, li {
   font-color: white;
-  FONT-FAMILY:"Avenir Next", "Avenir", sans-serif
-  FONT-SIZE: 16PX;
+  font-family: "Avenir Next", "Avenir", sans-serif
+  font-size: 16PX;
 }
 
-.iced-drinks, .hot-drinks, .intro {
-  width:85%;
+.icon{
+  width: 60px;
+  display:inline-flex;
+  align-content: center;
+  margin: 20px;
+}
+
+.hot-drinks, .iced-drinks, .seasonal, .panini, .bakery {
+  width:100%;
   margin: 0 auto;
   color: white;
+  background-color: #503939;
+  margin-bottom:10px;
+  margin-top: 5px;
+  padding: 40px;
+}
+
+.hot-drinks h2 {
+  margin-bottom:10px;
 }
 
  .menu-item-row {
@@ -88,27 +110,14 @@ ul, li {
 }
 
 
-.menu-1{
-  background-color: #503939;
-  margin-top: 10px;
-  padding: 20px;
-  width: 400px;
-  height: 600px;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
 
-}
 
 .menu-2{
   background-color: #503939;
   margin-top: 10px;
   padding: 20px;
-  width: 400px;
-  height: 300px;
-  display: flex;
-  justify-content: space-between;
   position: relative;
+  margin-bottom:10px;
 
 }
 
@@ -125,14 +134,18 @@ ul, li {
 }
 
 .logo{
-  width: 250px;
-  margin-right: 100px;
-  margin-left: 100px;
-  align-items: center;
+  width: 50%;
+  display:block;
+  background-color:red;
+  padding;10px;
+  margin: 0 auto;
 }
 
+.logo img {
+width:100px; }
+
 .image-1{
-  width: 400px;
+  width: 450px;
   padding-top: 11px;
 }
 
