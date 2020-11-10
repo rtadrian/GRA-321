@@ -26,6 +26,13 @@ h4 {
   Color: #503939
 }
 
+h5{
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  Font-size: 16px
+  Text-transform: uppercase;
+  Color: white;
+}
+
 p{
   font-family: "Avenir Next", "Avenir", sans-serif;
   Font-size: 21px;
@@ -38,6 +45,48 @@ p2 {
   Color: #503939;
   Line-height: 28px;
 }
+
+li, ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  font-color: white;
+  FONT-FAMILY:"Avenir Next", "Avenir", sans-serif
+  FONT-SIZE: 16PX;
+}
+
+.iced-drinks, .hot-drinks, .intro {
+  width:85%;
+  margin: 0 auto;
+  color: white;
+}
+
+ .menu-item-row {
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 0 0 1rem 0;
+}
+
+.menu-item-row p {
+  width:30%;
+}
+
+.menu-item-row ul {
+  width:60%;
+  list-style-type: none;
+  float: right;
+  text-align:right;
+}
+
+.menu-item-row ul li {
+  width:30%;
+  display:inline-block;
+}
+
 
 .menu-1{
   background-color: #503939;
