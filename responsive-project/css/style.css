@@ -65,14 +65,21 @@ ul, li {
 }
 
 .icon{
-  width: 60px;
-  display:inline-flex;
+  width: 70%;
+  display:flex;
   align-content: center;
-  margin: 20px;
+  text-align: center;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+.icon img{
+  width: 60px;
+  text-align: center;
 }
 
 .hot-drinks, .iced-drinks, .seasonal, .panini, .bakery {
-  width:100%;
+  width:450px;
   margin: 0 auto;
   color: white;
   background-color: #503939;
@@ -109,30 +116,6 @@ ul, li {
   display:inline-block;
 }
 
-
-
-
-.menu-2{
-  background-color: #503939;
-  margin-top: 10px;
-  padding: 20px;
-  position: relative;
-  margin-bottom:10px;
-
-}
-
-.menu-3{
-  background-color: #503939;
-  margin-top: 10px;
-  padding: 20px;
-  width: 400px;
-  height: 400px;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-
-}
-
 .logo{
   width: 50%;
   display:block;
@@ -146,7 +129,8 @@ width:100px; }
 
 .image-1{
   width: 450px;
-  padding-top: 11px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .locations{
@@ -301,4 +285,10 @@ body
   transform: none;
 }
 
-@media only screen and (min-width:400px;)
+@media only screen and (min-width:450px){
+
+  .menu-row-1{
+    display:flex;
+  }
+
+}
