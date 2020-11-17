@@ -79,7 +79,7 @@ ul, li {
 }
 
 .hot-drinks, .iced-drinks, .seasonal, .panini, .bakery {
-  width:450px;
+  width:100%;
   margin: 0 auto;
   color: white;
   background-color: #503939;
@@ -92,12 +92,36 @@ ul, li {
   margin-bottom:10px;
 }
 
- .menu-item-row {
+ .menu-row-1 {
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 10px;
+}
+
+.menu-row-2 {
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 10px;
+}
+
+.location-row{
   width: 100%;
   display:flex;
   justify-content: space-between;
   align-items:flex-start;
-  padding: 0 0 1rem 0;
+  padding: 10px;
+}
+
+.review-row{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 10px;
 }
 
 .menu-item-row p {
@@ -128,14 +152,13 @@ ul, li {
 width:100px; }
 
 .image-1{
-  width: 450px;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .locations{
-  padding: 10px;
-  max-width: 400px;
+  width: 100%;
 }
 
 .page-container{
@@ -290,5 +313,14 @@ body
   .menu-row-1{
     display:flex;
   }
+
+  .menu-row-2{
+    display:flex;
+  }
+
+  .location-row{
+    display:flex;
+}
+
 
 }
