@@ -41,7 +41,7 @@ p{
 
 p2 {
   font-family: "Avenir Next", "Avenir", sans-serif;
-  Font-size: 16px
+  Font-size: 16px;
   Color: #503939;
   Line-height: 28px;
 }
@@ -78,9 +78,37 @@ ul, li {
   text-align: center;
 }
 
-.hot-drinks, .iced-drinks, .seasonal, .panini, .bakery {
+.seasonal, .panini, .bakery {
   width:100%;
-  margin: 0 auto;
+  color: white;
+  background-color: #503939;
+  margin-bottom:10px;
+  margin-top: 5px;
+  padding: 40px;
+}
+
+.hot-drinks {
+  width:100%;
+  height: 600px;
+  color: white;
+  background-color: #503939;
+  margin-bottom:10px;
+  margin-top: 5px;
+  padding: 40px;
+}
+
+.iced-drinks {
+  width:100%;
+  height: 600px;
+  color: white;
+  background-color: #503939;
+  margin-bottom:10px;
+  margin-top: 5px;
+  padding: 40px;
+}
+
+.panini {
+  width:100%;
   color: white;
   background-color: #503939;
   margin-bottom:10px;
@@ -94,33 +122,26 @@ ul, li {
 
  .menu-row-1 {
   width:100%;
-  display:flex;
-  justify-content: space-between;
-  align-items:flex-start;
-  padding: 10px;
 }
 
 .menu-row-2 {
   width:100%;
-  display:flex;
-  justify-content: space-between;
-  align-items:flex-start;
-  padding: 10px;
 }
 
-.location-row{
+.menu-row-3 {
+  width:100%;
+}
+
+.locations{
   width: 100%;
-  display:flex;
-  justify-content: space-between;
-  align-items:flex-start;
+}
+
+.location-row-1, .location-row-2, .location-row-3 {
   padding: 10px;
 }
 
 .review-row{
   width: 100%;
-  display:flex;
-  justify-content: space-between;
-  align-items:flex-start;
   padding: 10px;
 }
 
@@ -154,10 +175,6 @@ width:100px; }
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.locations{
-  width: 100%;
 }
 
 .page-container{
@@ -311,15 +328,50 @@ body
 
   .menu-row-1{
     display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
   }
 
   .menu-row-2{
     display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
   }
 
-  .location-row{
+  .menu-row-3{
+    width: 100%;
     display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+  }
+
+  .locations{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .hot-drinks{
+    width:45%;
+    color: white;
+    background-color: #503939;
+    padding: 40px;
+  }
+
+    .iced-drinks{
+      width:45%;
+      color: white;
+      background-color: #503939;
+      padding: 40px;
+    }
+
+  .location-row, .review-row{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
 }
 
+.review-row img {
+ width: 45%;
+}
 
 }
