@@ -78,7 +78,7 @@ ul, li {
   text-align: center;
 }
 
-.seasonal, .panini, .bakery {
+.seasonal,  .bakery {
   width:100%;
   color: white;
   background-color: #503939;
@@ -114,6 +114,10 @@ ul, li {
   margin-bottom:10px;
   margin-top: 5px;
   padding: 40px;
+}
+
+.isolated-price {
+  text-align: right;
 }
 
 .hot-drinks h2 {
@@ -324,6 +328,12 @@ body
   transform: none;
 }
 
+.muffins {
+background-image: url("https://images.unsplash.com/photo-1587174147003-eb7dc051122b?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
+height: 500px;
+background-size: cover;
+}
+
 @media only screen and (min-width:450px){
 
   .menu-row-1{
@@ -343,9 +353,26 @@ body
     display:flex;
     justify-content: space-between;
     align-items:flex-start;
+margin-bottom: 3%;
   }
 
-  .locations{
+  .bakery {
+  width:25%;
+  margin-right: 10px;
+  height: 500px;
+
+}
+
+.muffins {
+width: 75%;
+background-image: url("https://images.unsplash.com/photo-1587174147003-eb7dc051122b?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
+height: 500px;
+background-size: cover;
+background-position: center;
+
+}
+
+  #locations {
     display:flex;
     justify-content: space-between;
   }
